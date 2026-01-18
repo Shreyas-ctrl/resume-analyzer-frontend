@@ -146,9 +146,7 @@ export default function App() {
           </>
         )}
       </div>
-    </div>
-  );
-  <footer
+      <footer
   style={{
     marginTop: "4rem",
     paddingTop: "1rem",
@@ -169,6 +167,9 @@ export default function App() {
     hiring decisions or professional evaluations.
   </p>
 </footer>
+    </div>
+  );
+  
 }
 
 
