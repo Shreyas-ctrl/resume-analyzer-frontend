@@ -23,7 +23,7 @@ export default function App() {
     const formData = new FormData();
     formData.append("resume", file);
 
-    const response = await fetch("https://resumeanalyzer-backend1.onrender.com", {
+    const response = await fetch("https://resumeanalyzer-backend1.onrender.com/analyze", {
       method: "POST",
       body: formData,
     });
