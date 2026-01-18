@@ -149,3 +149,25 @@ export default function App() {
     </div>
   );
 }
+<footer
+  style={{
+    marginTop: "4rem",
+    paddingTop: "1rem",
+    borderTop: "1px solid #e0e0e0",
+    fontSize: "0.85rem",
+    color: "#666",
+    textAlign: "center",
+    maxWidth: "800px",
+    marginLeft: "auto",
+    marginRight: "auto"
+  }}
+>
+  <p style={{ fontStyle: "italic", opacity: 0.85 }}>
+    This tool is an AI-powered career guidance system designed to analyze resumes
+    against generalized role expectations. It currently works best for commonly
+    observed professional roles and skill sets. The insights provided are for
+    learning, self-improvement, and career exploration only and do not represent
+    hiring decisions or professional evaluations.
+  </p>
+</footer>
+
